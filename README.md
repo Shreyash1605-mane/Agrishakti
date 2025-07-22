@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🌾 AgriShakti – Empowering Farmers with Smart Agricultural Solutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AgriShakti is a full-stack web and mobile platform designed to uplift farmers by providing real-time, AI-powered agricultural support. The platform bridges the gap between traditional farming and modern technology by offering features like crop disease detection, mandi rate tracking, government scheme alerts, and more.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🔍 Crop Disease Diagnosis
+- Upload images of diseased crops.
+- Get AI-based analysis for disease detection.
+- Receive actionable advice and preventive measures.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📈 Live Mandi Rates
+- Real-time pricing of crops from local markets.
+- Helps farmers make informed selling decisions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📰 Government Scheme Alerts
+- Get timely updates on central/state agriculture schemes.
+- Apply directly or learn eligibility criteria.
 
-### `npm test`
+### 🌦️ Weather Forecast & Advisory
+- Accurate daily and weekly weather updates.
+- Smart irrigation and crop care tips based on forecasts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧑‍🌾 Farmer Community Forum (Optional Add-on)
+- Connect with fellow farmers.
+- Share experiences, tips, and solutions.
 
-### `npm run build`
+### 🗣️ Multi-language Support
+- Supports regional languages for better accessibility.
+- Easy to switch between languages in app settings.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💻 Frontend
+- **Web**: React.js
+  
+### ☁️ Database & Storage
+- Firebase Firestore
+- Firebase Storage for image uploads
 
-### `npm run eject`
+### 📡 APIs Used
+- OpenWeatherMap API (weather forecasts)
+- AgMarknet or custom mandi rate API
+- Custom notification system via Firebase Cloud Messaging
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📲 How to Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Register/Login** with your mobile number or email.
+2. Upload an image for **crop diagnosis**.
+3. Check **live mandi rates** for your selected crop.
+4. View current **government schemes** relevant to your region.
+5. Stay updated with daily **weather forecasts**.
+6. (Optional) Join the **community forum** to discuss with peers.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
